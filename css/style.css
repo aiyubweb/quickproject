@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2,, h3, h4, h5, h{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* Global Css Star Here */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+/* Global Css End */
+.header{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #eee;
+    float: left;
+}
+.logo{
+    width: auto;
+}
+.header .nav{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.header .nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 0px 0px;
+}
+.header .nav li a{
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #0F2656;
+    margin: 0px 0px 0px 20px;
+}
+.header .nav li a:hover{
+    color: #AEDAFF;
+}
+/* Banner css start */
+.banner{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    text-align: center;
+}
+.banner h1{
+    color: #0F2656;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0px 0px 15px;
+}
+ .banner h1 span{
+    color: #0088FF;
+}
+.banner p{
+    color: #0F2656;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 0px 15px;
+}
+.banner .banner-img{
+    width: 60%;
+    margin: 15px 0px 0px;
+}
+/* banner css end */
+/* successful css star */
+.successful{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+.successful .inner-succes-left{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.successful .inner-succes-left h1{
+    color: #F15767;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0px 25px 0px 0px;
+}
+.successful .inner-succes-left p{
+    color: #0F2656;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 25px 0px 0px;
+}
+.successful .inner-succes-right{
+    width: 100%;
+    float: left;
+}
+.successful .inner-succes-right h1{
+    color: #0F2656;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0px 0px 0px 25px;
+}
+/* successful css end */
+/* feature section css start */
+.feature{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+.inner-feature{
+    width: 80%;
+    float: left;
+    padding: 40px 25px;
+    margin: 0px 15px;
+}
+.inner-feature .img-fluid{
+    width: 100%;
+    height: 200px;
+}
+.inner-feature h5{
+    color: #0F2656;
+    font-size:22px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 10px 0px 10px 0px;
+}
+.inner-feature p{
+    color: #0F2656;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.cl1{
+    background-color: #FDEBED;
+}
+.cl2{
+    background-color: #EBF9F4;
+}
+.cl3{
+    background-color: #FFF7E8;
+}
+/* feature section css end */
+/* footer css start */
+.footer{
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+    background-color: #008AFF;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5BBFFF;
+    text-align: center;
+}
+.footer p a{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+}
+/* footer css end */
